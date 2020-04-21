@@ -1,0 +1,35 @@
+@import url(../../.nojekyll/__caption/lead__caption.css);
+@import url(../../.nojekyll/__image/lead__image.css);
+@import url(../../.nojekyll/__subtitle/lead__subtitle.css);
+@import url(../../.nojekyll/__title/lead-title.css);
+.lead {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: calc(100% - 296px);
+}
+
+@media (max-width: 1279px) {
+    .lead {
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media (max-width: 1023px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .lead {
+        max-width: 100%;
+    }
+}

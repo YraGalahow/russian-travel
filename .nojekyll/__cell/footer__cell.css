@@ -1,0 +1,14 @@
+.footer__cell {
+    margin: 0;
+    margin-right: 18px;
+}
+
+.footer__cell:last-child {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    .footer__cell {
+        margin-bottom: 32px;
+    }
+}

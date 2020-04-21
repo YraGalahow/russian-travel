@@ -1,0 +1,40 @@
+ @import url(../../.nojekyll/__logo/header__logo.css);
+ @import url(../../.nojekyll/__lang-links/header__lang-links.css);
+ @import url(../../.nojekyll/__lang-link/header__lang-link.css);
+ @import url(../../.nojekyll/__lang-link/_active/header__lang-link_active.css);
+ .header {
+     margin: 0 auto;
+     margin-bottom: 56px;
+     display: flex;
+     justify-content: space-between;
+     max-width: calc(100% - 96px);
+     height: 52px;
+ }
+ 
+ @media (max-width: 1279px) {
+     .header {
+         margin-bottom: 48px;
+     }
+ }
+ 
+ @media (max-width: 1023px) {
+     .header {
+         max-width: calc(100% - 48px);
+         margin-bottom: 48px;
+     }
+ }
+ 
+ @media (max-width: 767px) {
+     .header {
+         max-width: calc(100% - 32px);
+         margin-bottom: 48px;
+     }
+ }
+ 
+ @media (max-width: 425px) {
+     .header {
+         height: 42px;
+         max-width: calc(100% - 32px);
+         margin-bottom: 48px;
+     }
+ }

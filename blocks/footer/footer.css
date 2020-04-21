@@ -1,0 +1,29 @@
+@import url(../../.nojekyll/__copyright/footer__copyright.css);
+@import url(../../.nojekyll/__links/footer__links.css);
+@import url(../../.nojekyll/__link/footer__link.css);
+@import url(../../.nojekyll/__cell/footer__cell.css);
+.footer {
+    margin: 0 auto;
+    width: calc(100% - 96px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 92px;
+}
+
+@media (max-width: 1023px) {
+    .footer {
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        margin: 0;
+        width: calc(100% - 134px);
+        margin-left: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

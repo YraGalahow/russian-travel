@@ -1,0 +1,31 @@
+@import url(../../.nojekyll/__item/photo-grid__item.css);
+.photo-grid {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 92px;
+    display: grid;
+    width: calc(100% - 96px);
+    grid-template-columns: repeat(auto-fit, minmax(calc(100% - (100% - 284px)), 1fr));
+    grid-gap: 16px;
+}
+
+@media (max-width: 1279px) {
+    .photo-grid {
+        grid-gap: 14px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .photo-grid {
+        width: calc(100% - 48px);
+        margin-top: 88px;
+    }
+}
+
+@media (max-width: 767px) {
+    .photo-grid {
+        grid-gap: 12px;
+        width: calc(100% - 32px);
+        margin-top: 64px;
+    }
+}

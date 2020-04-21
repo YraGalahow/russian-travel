@@ -1,0 +1,8 @@
+.lead__image {
+    width: 100%;
+    background-size: cover;
+}
+
+.lead__image:before {
+    padding-top: 100%;
+}
