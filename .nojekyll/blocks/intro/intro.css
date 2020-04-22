@@ -1,7 +1,7 @@
-@import url(../../.nojekyll/__list/intro__list.css);
-@import url(../../.nojekyll/__points/intro__points.css);
-@import url(../../.nojekyll/__text/intro__text.css);
-@import url(../../.nojekyll/__title/intro__title.css);
+@import url(./__list/intro__list.css);
+@import url(./__points/intro__points.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
 .intro {
     margin: 0px;
     margin-left: 148px;

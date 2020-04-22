@@ -1,4 +1,4 @@
-@import url(../../.nojekyll/__item/photo-grid__item.css);
+@import url(./__item/photo-grid__item.css);
 .photo-grid {
     margin: 0 auto;
     padding: 0;

@@ -1,7 +1,7 @@
-@import url(../../.nojekyll/__caption/lead__caption.css);
-@import url(../../.nojekyll/__image/lead__image.css);
-@import url(../../.nojekyll/__subtitle/lead__subtitle.css);
-@import url(../../.nojekyll/__title/lead-title.css);
+@import url(./__caption/lead__caption.css);
+@import url(./__image/lead__image.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__title/lead-title.css);
 .lead {
     margin: 0 auto;
     display: flex;

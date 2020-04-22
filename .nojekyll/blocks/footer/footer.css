@@ -1,7 +1,7 @@
-@import url(../../.nojekyll/__copyright/footer__copyright.css);
-@import url(../../.nojekyll/__links/footer__links.css);
-@import url(../../.nojekyll/__link/footer__link.css);
-@import url(../../.nojekyll/__cell/footer__cell.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__links/footer__links.css);
+@import url(./__link/footer__link.css);
+@import url(./__cell/footer__cell.css);
 .footer {
     margin: 0 auto;
     width: calc(100% - 96px);

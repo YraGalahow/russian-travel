@@ -1,10 +1,10 @@
-    @import url(../../.nojekyll/__image/place__image.css);
-    @import url(../../.nojekyll/__paragrah/place__paragrah.css);
-    @import url(../../.nojekyll/__text/place__text.css);
-    @import url(../../.nojekyll/__title/place__title.css);
-    @import url(../../.nojekyll/__website/place__website.css);
-    @import url(../../.nojekyll/__url-heading/place__url-heading.css);
-    @import url(../../.nojekyll/__link/place__link.css);
+    @import url(./__image/place__image.css);
+    @import url(./__paragrah/place__paragrah.css);
+    @import url(./__text/place__text.css);
+    @import url(./__title/place__title.css);
+    @import url(./__website/place__website.css);
+    @import url(./__url-heading/place__url-heading.css);
+    @import url(./__link/place__link.css);
     .place {
         margin: 0 auto;
         width: 100%;
