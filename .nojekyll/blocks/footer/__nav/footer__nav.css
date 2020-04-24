@@ -1,0 +1,10 @@
+.footer__nav {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .footer__nav {
+        margin-left: 16px;
+    }
+}

@@ -1,11 +1,8 @@
-.intro__list {
-    width: 100%;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+.intro__span-accent {
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 12px;
     line-height: 18px;
+    color: #FFFFFF;
 }

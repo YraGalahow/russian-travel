@@ -4,11 +4,13 @@
  @import url(./__lang-link/_active/header__lang-link_active.css);
  .header {
      margin: 0 auto;
+     padding: 0;
      margin-bottom: 56px;
      display: flex;
      justify-content: space-between;
+     align-items: flex-end;
      max-width: calc(100% - 96px);
-     height: 52px;
+     max-height: 52px;
  }
  
  @media (max-width: 1279px) {
@@ -33,8 +35,8 @@
  
  @media (max-width: 425px) {
      .header {
-         height: 42px;
          max-width: calc(100% - 32px);
          margin-bottom: 48px;
+         max-height: 42px;
      }
  }

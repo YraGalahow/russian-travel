@@ -1,7 +1,7 @@
 .place__website {
     margin: 0;
     margin-right: 28px;
-    width: calc(100% - 528px);
+    width: 456px;
     margin-bottom: 48px;
     align-self: flex-end;
     display: flex;

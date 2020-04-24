@@ -1,6 +1,6 @@
 .place__image {
     margin: 0;
-    width: calc(100% - 524px);
+    width: 460px;
     background-size: cover;
 }
 
