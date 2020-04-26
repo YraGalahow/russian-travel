@@ -3,10 +3,12 @@
     padding: 0px;
     width: 176px;
     background-size: cover;
+    height: 52px;
 }
 
 @media (max-width: 425px) {
     .header__logo {
         width: 142px;
+        height: 42px;
     }
 }
